@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'PlanteFont';
+    src: url('./Plante.ttf') format('truetype');
+  }
+  
+  .Welcome {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'PlanteFont', sans-serif;
+    font-size: 5rem;
+  }
+
+  .cards{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40vh;
+  }
+
+.card :hover{
+ color: green;
+  
+}

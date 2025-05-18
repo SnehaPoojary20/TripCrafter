@@ -1,0 +1,11 @@
+.dropdown {
+  margin-top: 10vh;
+  position: relative;
+}
+
+.dropdown-menu {
+  max-height: 80vh;
+  overflow-y: auto;
+  z-index: 1050;
+}
+
